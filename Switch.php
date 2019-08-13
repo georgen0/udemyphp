@@ -3,7 +3,7 @@
 <?php
 
 $x = 20;
-switch (x) {
+switch ($x) {
     case 23:
         echo "it is 23";
         break;
