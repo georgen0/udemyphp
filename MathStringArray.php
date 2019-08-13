@@ -2,9 +2,9 @@
 
 <?php
 
-echo pow(2,7), "<br>";
+echo pow(2, 7), "<br>";
 echo strlen("I love you!"), "<br>";
-$array = [69,45,367,12,78];
+$array = [69, 45, 367, 12, 78];
 sort($array);
 print_r($array);
 
