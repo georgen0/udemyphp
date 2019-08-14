@@ -1,10 +1,7 @@
 <?php
-$connection = mysqli_connect('localhost', 'root', '', 'udemy');
-if ($connection) {
-    echo "Success";
-} else {
-    echo "Fail";
-}
+include "Connection.php";
+global $connection;
+connect();
 $user = $_POST['user'];
 $pswd = $_POST['pswd'];
 $query = "INSERT INTO students (username,password) VALUES ('$user', '$pswd')";

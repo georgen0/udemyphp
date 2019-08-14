@@ -1,16 +1,12 @@
 <?php
-$connection = mysqli_connect('localhost', 'root', '', 'udemy');
-if ($connection) {
-    echo "Success";
-} else {
-    echo "Fail";
-}
+include "Connection.php";
+connect();
 ?>
 <html>
 <select name="" id="">
 
     <?php
-
+    global $connection;
     $query = "SELECT * FROM students";
     $result = mysqli_query($connection, $query);
 
