@@ -1,6 +1,6 @@
 <?php
 $pass = "mypass";
-$salt = "somesalt";
+$salt = "iusesomecrazystrings22";
 $cry = crypt($pass, $salt);
 echo $cry;
 ?>
